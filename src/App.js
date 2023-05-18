@@ -6,14 +6,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+    <div className="background-color">
      <Navbar />
+    </div>
      <Technologies />
      <About />
      <Header />
      <Projects />
      <Contact />
      <Footer />
-    </div>
+      </div>
   );
 }
 

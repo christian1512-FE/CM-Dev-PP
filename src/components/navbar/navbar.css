@@ -1,0 +1,32 @@
+.cm__navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    color: white;
+    padding: 2rem 2rem;
+}
+
+.cm__logo {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.cm__navbar-links ul {
+display: flex;
+}
+
+.cm__navbar-links li {
+    list-style: none;
+}
+
+.cm__navbar-links a {
+font-weight: 600;
+text-decoration: none;
+color: white;
+padding: 2rem;
+display: block;
+}
+
+.cm__navbar-links a:hover {
+color: orange;
+}

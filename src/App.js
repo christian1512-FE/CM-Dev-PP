@@ -8,10 +8,10 @@ function App() {
     <div className="App">
     <div className="background-color">
      <Navbar />
-    </div>
-     <Technologies />
-     <About />
      <Header />
+    </div>
+     <About />
+     <Technologies />
      <Projects />
      <Contact />
      <Footer />

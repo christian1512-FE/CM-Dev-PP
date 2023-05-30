@@ -2,6 +2,8 @@
 import { FaReact, FaHtml5 } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoCss3 } from "react-icons/io5";
 import { BsFillBootstrapFill } from "react-icons/bs";
+import { SiMongodb } from "react-icons/si";
+
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
@@ -37,6 +39,10 @@ const Technologies = () => {
         <SwiperSlide>
           <BsFillBootstrapFill size={64} />
           <p>Bootstrap</p>
+        </SwiperSlide>
+        <SwiperSlide>
+          <SiMongodb size={64} />
+          <p>MongoDB</p>
         </SwiperSlide>
       </Swiper>
     </div>

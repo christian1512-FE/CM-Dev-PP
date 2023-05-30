@@ -7,11 +7,12 @@
   background-color: pink;
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
-  margin: 2rem;
+.contact-container h1 {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
 }
+
 
 .contact-form {
   display: flex;
@@ -36,7 +37,6 @@ textarea {
 
 .btn {
   display: flex;
-  /* background-color: #0a66c2; */
   border-radius: 20px;
   border-style: none;
   font-size: 16px;
@@ -44,6 +44,7 @@ textarea {
   text-align: center;
   cursor: pointer;
   transition: 0.3s ease-in-out;
+
 }
 
 .btn:hover {
@@ -62,6 +63,6 @@ textarea {
 
   input,
   textarea {
-    width: 80%;
+    width: 75%;
   }
 }

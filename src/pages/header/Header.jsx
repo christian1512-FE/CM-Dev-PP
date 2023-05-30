@@ -11,10 +11,11 @@ const Header = () => {
   return (
     <div className="cm__header" id="home">
       <div className="cm__header-content">
-        <h1>
-        <span>Hello, I'm</span> 
-            <strong>Christian Mendez</strong>
-       </h1>
+      <h2>
+        <span>Hello, I'm</span>
+        </h2>
+        <h1><strong>Christian Mendez</strong>
+      </h1>
         <h2>A Front-End Developer.</h2>
         <div className="links-icons">
           <a href={linkedinURL}>

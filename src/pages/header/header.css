@@ -19,8 +19,11 @@
 .cm__header-content h1 strong {
   font-size: 60px;
   color: #0a66c2;
-  display: block;
- 
+  display: block; 
+}
+
+.cm__header-content h2 {
+  font-size: 30px;
 }
 
 .links-icons {
@@ -82,6 +85,9 @@
     /* background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%); */
   }
 }
+
+
+
 
 
 

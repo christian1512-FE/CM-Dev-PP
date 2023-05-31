@@ -1,12 +1,12 @@
 import React from "react";
-// import cmlogo from "../../assets/cmlogo.png";
+import cmlogo from "../../assets/cm_logo_new.png";
 import "./navbar.css";
 
 const Navbar = () => {
   return (
     <div className="cm__navbar">
-       <div className="cm__logo">DevCM
-             {/* <img src={cmlogo} alt="weblogo" />    */}
+       <div className="cm__logo">
+             <img src={cmlogo} alt="weblogo" />    
        </div>
         <div className="cm__navbar-links">
         <ul>

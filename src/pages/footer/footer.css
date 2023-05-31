@@ -1,0 +1,38 @@
+.footer-container {
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+  color: rgba(0, 40, 83, 1);
+}
+
+.footer-logo img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.linkicon > a > svg {
+  margin-right: 5px;
+  transition: all 0.3s ease-in-out;
+  color: rgba(0, 40, 83, 1);
+  width: 36px;
+  height: 36px;
+  margin: 0;
+  padding: 1px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+.linkicon > a:hover > svg {
+  transform: scale(1.2);
+  color: #0a66c2;
+}
+
+.footer-cr {
+  font-size: 12px;
+}
+

@@ -6,9 +6,14 @@
   padding: 2rem 2rem;
 }
 
-.cm__logo {
+/* .cm__logo {
   font-size: 24px;
   margin: 0.5rem;
+} */
+
+.cm__logo img{
+height: 6rem;
+width: auto;
 }
 
 .cm__navbar-links {

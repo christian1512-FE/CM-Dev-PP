@@ -2,8 +2,9 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 5rem;
-  margin: 6rem 6rem;
+  max-width: 100%;
+  padding: 3rem;
+  margin: 6rem auto;
 }
 
 .about-image {
@@ -19,7 +20,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  max-width: 100%;
+  max-width: 30%;
   margin-right: 4rem;
   margin-left: 4rem;
 }
@@ -32,9 +33,9 @@
 }
 
 .about-content p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
-  color: #555;
+  color: #767676;
 }
 
 /* ******************* */

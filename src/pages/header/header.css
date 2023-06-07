@@ -1,9 +1,10 @@
 .cm__header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   color: white;
   padding: 8rem 8rem;
+  margin: 4rem;
 }
 
 /* Introduction  */
@@ -12,14 +13,12 @@
   flex-direction: column;
   justify-content: center;
   padding: 2rem;
-  /* padding: 2rem 4rem; */
-  /* background-color: rgb(34, 154, 214); */
 }
 
 .cm__header-content h1 strong {
   font-size: 60px;
   color: #0a66c2;
-  display: block; 
+  display: block;
 }
 
 .cm__header-content h2 {
@@ -37,7 +36,7 @@
   transition: all 0.3s ease-in-out;
   color: white;
   width: 36px;
-  height: 36px; 
+  height: 36px;
 }
 
 .links-icons > a:hover > svg {
@@ -45,26 +44,23 @@
   color: #0a66c2;
 }
 
-
 /* **************************** IMAGE ****************************** */
 .cm__image {
-  margin-right: 5rem;
-  /* background-color: rgb(34, 154, 214); */
+  margin-right: 3rem;
 }
 
 .cm__image img {
-  /* background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%); */
   animation: morph 8s ease-in-out infinite;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  height: 350px;
+  height: 400px;
 
   transition: all 1s ease-in-out;
-  width: 350px;
+  width: 400px;
   z-index: 5;
 
   border-style: solid;
   border-color: rgb(255, 255, 255);
-
+  margin-bottom: 3rem;
 }
 
 @keyframes morph {
@@ -84,9 +80,3 @@
     /* background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%); */
   }
 }
-
-
-
-
-
-

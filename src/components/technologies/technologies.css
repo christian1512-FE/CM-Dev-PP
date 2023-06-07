@@ -1,12 +1,10 @@
 .technologies {
   display: flex;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 5rem;
   text-align: center;
   color: white;
 }
 
 .technologies p {
   font-family: var(--font-family);
-
 }

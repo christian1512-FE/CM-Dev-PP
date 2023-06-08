@@ -4,7 +4,7 @@ import "./about.css";
 
 const About = () => {
   return (
-  <div className="about-container " id="about">
+  <div className="about-container" data-aos="fade-up" data-aos-duration="3000" id="about">
     <div className="about-image">
       <img src={workingimage} alt="working" />
     </div>

@@ -3,8 +3,8 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   color: white;
-  padding: 8rem 8rem;
-  margin: 4rem;
+  padding: 12rem;
+
 }
 
 /* Introduction  */
@@ -45,9 +45,7 @@
 }
 
 /* **************************** IMAGE ****************************** */
-.cm__image {
-  margin-right: 3rem;
-}
+
 
 .cm__image img {
   animation: morph 8s ease-in-out infinite;

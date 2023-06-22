@@ -1,21 +1,23 @@
 .footer-container {
-  /* background-color: pink; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 4rem;
   color: rgba(0, 40, 83, 1);
+  max-width: 100%;
+  height: 24vh;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 12px;
 }
 
-.footer-logo img{
-    /* display: flex;
-    justify-content: center; */
-    align-items: center;
-    margin-bottom: 0;
-    height: 50px;
+.footer-logo img {
+  align-items: center;
+  margin-bottom: 0px;
+  height: 75px;
+  margin-left: 24px;
 }
 
-.linkicon > a > svg {
+.linkicon a svg {
   margin-right: 5px;
   transition: all 0.3s ease-in-out;
   color: rgba(0, 40, 83, 1);
@@ -23,17 +25,14 @@
   height: 36px;
   margin: 0;
   padding: 1px;
-  margin-top: 1rem;
   margin-bottom: 1rem;
-
 }
 
-.linkicon > a:hover > svg {
+.linkicon a:hover svg {
   transform: scale(1.2);
-  color: #0a66c2;
+  color: #ffa500;
 }
 
 .footer-cr {
   font-size: 12px;
 }
-

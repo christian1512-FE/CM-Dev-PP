@@ -1,27 +1,30 @@
 .portfolio-container {
   display: flex;
   flex-direction: column;
-  padding: 4rem;
+  padding: 1rem;
 }
 
 .heading h2 {
   text-align: center;
-  margin: 3rem;
   font-size: 24px;
+  padding: 2rem;
+  margin-top: 3rem;
+  color: #0a66c2;
 }
 
 .projects {
   display: flex;
   justify-content: space-around;
-  gap: 3rem;
-  max-width: 50%;
+  margin: auto;
+   gap: 3rem; 
+  height: 25vh; 
   margin: 1rem auto;
-  padding: 2rem;
+  padding: 1rem;
   background-color: rgb(255, 255, 255);
   border-radius: 1.7rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  transition: 0.3s;
+  transition: 0.3s ease-in-out;
   margin-bottom: 3rem;
 }
 
@@ -29,6 +32,7 @@
   transform: scale(1.1);
   box-shadow: 0 0 40px -10px rgba(37, 36, 36, 0.25);
 }
+
 .projects img {
   border-radius: 1rem;
   height: auto;
@@ -40,7 +44,6 @@
   text-align: center;
   margin-bottom: 1rem;
   color: #0a66c2;
-  
 }
 
 .content p {
@@ -54,7 +57,6 @@
 .links {
   display: flex;
   justify-content: center;
-
 }
 
 .links button {
@@ -68,7 +70,7 @@
   cursor: pointer;
   color: white;
   background-color: rgba(0, 40, 83, 1);
-  transition: all 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .links svg {
@@ -78,7 +80,8 @@
 }
 
 .links button:hover {
-  background-color: #0a66c2;
+  color: rgba(0, 40, 83, 1);
+  background-color: #ffa500;
 }
 
 .content {
@@ -87,12 +90,32 @@
   padding: 1rem;
 }
 
-@media screen and (max-width: 1024px) {
+/* min 992 code */
 .projects {
-    max-width: 75%;
-}
-.projects img {
-    max-width: 100%;
-}
+  max-width: 50%;
+  height: auto;
+  gap: 0;
 }
 
+.project img {
+  height: 220px;
+  width: 325px;
+}
+
+.content h2 {
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+}
+
+.content p {
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+  .projects {
+    flex-direction: column;
+    max-width: 370px;
+    width: 100%;
+  }
+}

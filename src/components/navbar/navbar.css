@@ -6,19 +6,15 @@
   padding: 2rem 2rem;
 }
 
-/* .cm__logo {
-  font-size: 24px;
-  margin: 0.5rem;
+.cm__logo img {
+  height: 5rem;
+  width: auto;
+}
+
+/* .cm__logo img:hover {
+  transform: scale(1.2);
+  color: #FFA500;
 } */
-
-.cm__logo img{
-height: 6rem;
-width: auto;
-}
-
-.cm__navbar-links {
-  /* margin-left: auto; */
-}
 
 .cm__navbar-links ul {
   display: flex;
@@ -38,31 +34,46 @@ width: auto;
   padding-right: 1.2rem;
   display: block;
   transition: color 0.3s ease-in-out;
-
 }
 
 .cm__navbar-links a:hover {
-  color: #0a66c2;
+  color: #ffa500;
 }
 
-/* MOBILE MEDIA TABLE */
+ @media (max-width: 576px) {
+  .cm__navbar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cm__navbar-links a {
+    margin-top: 15px;
+  }
+ } 
 
-@media screen and (max-width: 1050px) {
-
-}
-
-@media screen and (max-width: 700px) {
- 
-}
-
-/* SMALLER DEVICES */
-@media screen and (max-width: 550px) {
-
+/*  SMALL */
+@media (max-width: 576px) {
+  .cm__navbar {
+    display: flex;
+    flex-direction: column;
   }
 
+  .cm__logo img {
+    height: 4rem;
+    width: auto;
+  }
+  .cm__navbar-links a {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin-top: 1rem;
+  }
+}
 
+/*  MEDIUM */
 
-  
+@media (max-width: 768px) {
+  .cm__navbar-links a {
+    font-size: 16px;
+  }
+}
 
-
-  

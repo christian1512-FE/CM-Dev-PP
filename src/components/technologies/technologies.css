@@ -1,10 +1,20 @@
 .technologies {
   display: flex;
-  padding: 5rem;
+  align-items: center;
   text-align: center;
+  height: 24vh;
+  max-width: 100%;
   color: white;
 }
 
 .technologies p {
   font-family: var(--font-family);
 }
+
+.technologies svg {
+  width: 64px;
+  height: 64px;
+  color: white;
+}
+
+

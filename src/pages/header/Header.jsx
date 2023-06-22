@@ -14,7 +14,7 @@ const Header = () => {
       <h2>
         <span>Hello, I'm</span>
         </h2>
-        <h1><strong>Christian Mendez</strong>
+        <h1><strong>Christian Mendez</strong> 
       </h1>
         <h2>A Front-End Developer.</h2>
         <div className="links-icons">

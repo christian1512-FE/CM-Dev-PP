@@ -1,5 +1,7 @@
 import React from "react";
-import cmlogo from "../../assets/cm_logo_new.png";
+// import cmlogo from "../../assets/cm_logo_new.png";
+import cmlogo from "../../assets/web-logo.png";
+
 import "./navbar.css";
 
 const Navbar = () => {

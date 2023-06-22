@@ -16,32 +16,32 @@ const Technologies = () => {
     direction: "horizontal",
     loop: true,
   };
-
+  
   return (
     <div className="technologies background-color" id="about">
       <Swiper {...swiperParams}>
         <SwiperSlide>
-          <FaReact size={64} />
+          <FaReact  />
           <p>React</p>
         </SwiperSlide>
         <SwiperSlide>
-          <IoLogoCss3 size={64} />
+          <IoLogoCss3 />
           <p>CSS</p>
         </SwiperSlide>
         <SwiperSlide>
-          <FaHtml5 size={64} />
+          <FaHtml5  />
           <p>HTML</p>
         </SwiperSlide>
         <SwiperSlide>
-          <IoLogoJavascript size={64} />
+          <IoLogoJavascript />
           <p>JavaScript</p>
         </SwiperSlide>
         <SwiperSlide>
-          <BsFillBootstrapFill size={64} />
+          <BsFillBootstrapFill  />
           <p>Bootstrap</p>
         </SwiperSlide>
         <SwiperSlide>
-          <SiMongodb size={64} />
+          <SiMongodb />
           <p>MongoDB</p>
         </SwiperSlide>
       </Swiper>

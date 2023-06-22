@@ -1,7 +1,8 @@
 import React from 'react';
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import "./footer.css";
-import cm_logo from "../../assets/cmendez_logo.png";
+import cm_logo from "../../assets/footer-new-logo.png";
+
 
 
 const Footer = () => {

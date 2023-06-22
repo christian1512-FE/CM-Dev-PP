@@ -9,12 +9,13 @@
 .cm__logo img {
   height: 5rem;
   width: auto;
+  cursor: pointer;
 }
 
-/* .cm__logo img:hover {
+.cm__logo img:hover {
   transform: scale(1.2);
   color: #FFA500;
-} */
+}
 
 .cm__navbar-links ul {
   display: flex;
@@ -30,10 +31,10 @@
   font-weight: 600;
   text-decoration: none;
   color: white;
-  padding-left: 1.2rem;
-  padding-right: 1.2rem;
+  margin: 1.2rem;
   display: block;
   transition: color 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .cm__navbar-links a:hover {

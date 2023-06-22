@@ -12,11 +12,6 @@
   cursor: pointer;
 }
 
-.cm__logo img:hover {
-  transform: scale(1.2);
-  color: #FFA500;
-}
-
 .cm__navbar-links ul {
   display: flex;
   flex-wrap: wrap;
@@ -41,7 +36,7 @@
   color: #ffa500;
 }
 
- @media (max-width: 576px) {
+@media (max-width: 576px) {
   .cm__navbar {
     display: flex;
     flex-wrap: wrap;
@@ -49,7 +44,7 @@
   .cm__navbar-links a {
     margin-top: 15px;
   }
- } 
+}
 
 /*  SMALL */
 @media (max-width: 576px) {
@@ -79,4 +74,3 @@
     padding: 10px;
   }
 }
-

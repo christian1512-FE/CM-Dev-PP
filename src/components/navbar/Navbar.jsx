@@ -7,7 +7,7 @@ import "./navbar.css";
 const Navbar = () => {
   const homelink = "https://christian1512-fe.github.io/CM-Dev-PP/#home";
   return (
-    <div className="cm__navbar">
+    <div className="cm__navbar" id="nav">
        <div className="cm__logo">
              <a href={homelink}>
              <img src={cmlogo} alt="weblogo"/>

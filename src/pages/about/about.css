@@ -24,12 +24,15 @@
   font-weight: bold;
   margin-bottom: 10px;
   color: #0a66c2;
+  margin: 8px;
+
 }
 
 .about-content p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   color: #767676;
+  margin: 8px;
 }
 
 /* SMALL */

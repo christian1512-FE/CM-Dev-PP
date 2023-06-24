@@ -1,5 +1,6 @@
 import React from "react";
-import cm_pic from "../../assets/cm_profileimage.png";
+import cm_pic from "../../assets/cm-profile-image.png";
+
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
 import "./header.css";

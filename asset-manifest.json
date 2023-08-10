@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/CM-Dev-PP/static/css/main.44c3d740.css",
-    "main.js": "/CM-Dev-PP/static/js/main.9f479a02.js",
+    "main.js": "/CM-Dev-PP/static/js/main.f8596b8c.js",
     "static/media/aboutme-image.png": "/CM-Dev-PP/static/media/aboutme-image.a378be6786c5c5ae85e2.png",
     "static/media/weather-app.png": "/CM-Dev-PP/static/media/weather-app.8c9ee2b1e9ef2ad82ada.png",
     "static/media/passwordgen.png": "/CM-Dev-PP/static/media/passwordgen.8c1b65b4bbb084592e14.png",
+    "static/media/webflow.png": "/CM-Dev-PP/static/media/webflow.a9fe064b63d2511b91f4.png",
     "static/media/cm-profile-image.png": "/CM-Dev-PP/static/media/cm-profile-image.3a72f665cb981e649991.png",
     "static/media/footer-new-logo.png": "/CM-Dev-PP/static/media/footer-new-logo.26d567cc75a2d376a828.png",
     "static/media/web-logo.png": "/CM-Dev-PP/static/media/web-logo.f34fe738b484ed9d7e2f.png",
     "static/media/workdayschedule.png": "/CM-Dev-PP/static/media/workdayschedule.884cebf7ef363818d698.png",
     "index.html": "/CM-Dev-PP/index.html",
     "main.44c3d740.css.map": "/CM-Dev-PP/static/css/main.44c3d740.css.map",
-    "main.9f479a02.js.map": "/CM-Dev-PP/static/js/main.9f479a02.js.map"
+    "main.f8596b8c.js.map": "/CM-Dev-PP/static/js/main.f8596b8c.js.map"
   },
   "entrypoints": [
     "static/css/main.44c3d740.css",
-    "static/js/main.9f479a02.js"
+    "static/js/main.f8596b8c.js"
   ]
 }

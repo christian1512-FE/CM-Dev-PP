@@ -3,6 +3,8 @@ import ProjectCard from "../../pages/projects/index.js";
 import weatherapp from "../../assets/weather-app.png";
 import passwordgen from "../../assets/passwordgen.png";
 import workdaysche from "../../assets/workdayschedule.png";
+import webflow from "../../assets/webflow.png";
+
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -39,6 +41,14 @@ function Projects() {
       desc: "Work day scheduler calender is an application that allows users to add and save events for each hour of a work day. The app was created using HTML, CSS and JQuery. It uses Day.js libraries to easily handle time and dates in JavaScript.",
       github: "https://github.com/christian1512-FE/DevCM-WDS-2022",
       website: "https://christian1512-fe.github.io/DevCM-WDS-2022/",
+    },
+    {
+      id: 4,
+      title: "Webflow Design",
+      image: webflow,
+      desc: "This is a simple web design I created using Webflow, this is my first application using this platform. Webflow offers a completely visual canvas, eliminating the need for manual coding. It's an excellent tool for translating design ideas into functional web applications",
+      github: "https://github.com/christian1512-FE",
+      website: "https://christians-spectacular-site-d15146.webflow.io/",
     },
 
   ];

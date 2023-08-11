@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/CM-Dev-PP/static/css/main.44c3d740.css",
-    "main.js": "/CM-Dev-PP/static/js/main.f8596b8c.js",
+    "main.js": "/CM-Dev-PP/static/js/main.d6c0eeda.js",
     "static/media/aboutme-image.png": "/CM-Dev-PP/static/media/aboutme-image.a378be6786c5c5ae85e2.png",
     "static/media/weather-app.png": "/CM-Dev-PP/static/media/weather-app.8c9ee2b1e9ef2ad82ada.png",
+    "static/media/photo-app.png": "/CM-Dev-PP/static/media/photo-app.ee5bbbf8a7df092694c4.png",
     "static/media/passwordgen.png": "/CM-Dev-PP/static/media/passwordgen.8c1b65b4bbb084592e14.png",
     "static/media/webflow.png": "/CM-Dev-PP/static/media/webflow.a9fe064b63d2511b91f4.png",
     "static/media/cm-profile-image.png": "/CM-Dev-PP/static/media/cm-profile-image.3a72f665cb981e649991.png",
@@ -12,10 +13,10 @@
     "static/media/workdayschedule.png": "/CM-Dev-PP/static/media/workdayschedule.884cebf7ef363818d698.png",
     "index.html": "/CM-Dev-PP/index.html",
     "main.44c3d740.css.map": "/CM-Dev-PP/static/css/main.44c3d740.css.map",
-    "main.f8596b8c.js.map": "/CM-Dev-PP/static/js/main.f8596b8c.js.map"
+    "main.d6c0eeda.js.map": "/CM-Dev-PP/static/js/main.d6c0eeda.js.map"
   },
   "entrypoints": [
     "static/css/main.44c3d740.css",
-    "static/js/main.f8596b8c.js"
+    "static/js/main.d6c0eeda.js"
   ]
 }

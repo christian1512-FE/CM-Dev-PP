@@ -4,6 +4,8 @@ import weatherapp from "../../assets/weather-app.png";
 import passwordgen from "../../assets/passwordgen.png";
 import workdaysche from "../../assets/workdayschedule.png";
 import webflow from "../../assets/webflow.png";
+import photoapp from "../../assets/photo-app.png";
+
 
 
 import AOS from "aos";
@@ -50,7 +52,14 @@ function Projects() {
       github: "https://github.com/christian1512-FE",
       website: "https://christians-spectacular-site-d15146.webflow.io/",
     },
-
+    {
+    id: 5,
+    title: "Photo Application",
+    image: photoapp,
+    desc: "I have developed a captivating photo application utilizing a combination of React, HTML, CSS, and JavaScript. This engaging platform is dedicated to showcasing a collection of photos I have creatively edited of my friends.",
+    github: "https://github.com/christian1512-FE/DevCM-photo-app",
+    website: "https://christian1512-fe.github.io/DevCM-photo-app",
+    },
   ];
 
   return (
